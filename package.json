@@ -1,0 +1,24 @@
+{
+  "name": "hekapoo-core",
+  "version": "1.0.0",
+  "description": "",
+  "module": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_modules/ts-node/dist/bin.js app.ts",
+    "dev:server": "nodemon --config nodemon.json --inspect-brk ./app.ts"
+  },
+  "author": "gloammer",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.3"
+  }
+}
